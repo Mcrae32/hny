@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'Nexa Script Regular';
+	src: url('../fonts/NexaScript-Regular.eot');
+	src: url('../fonts/NexaScript-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/NexaScript-Regular.woff') format('woff'),
+	url('../fonts/NexaScript-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+.hny {
+	background: url(../images/hny/bg.jpg) no-repeat center top;
+	height: 2085px;
+}
+
+.content {
+	max-width: 950px;
+	margin: 0 auto;
+}
+.content_video {
+	margin-top: 336px;
+	margin-bottom: 285px;
+}
+.content__row {
+	margin: 0 -15px;
+}
+.content__col {
+	display: flex;
+	justify-content: center;
+	/* padding: 0 15px; */
+}
+.hny__video {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	max-width: 765px;
+	height: 431px;
+	background-color: #030302;
+	overflow: hidden;
+}
+.content_text {
+}
+.hny__text {
+	background-color: #fff2e5;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.hny__text p {
+	font-size: 25px;
+    font-weight: bold;
+    line-height: 1.2em;
+    text-align: center;
+    letter-spacing: 0.7px;
+    margin-bottom: 18px;
+}
+.hny__img {
+	display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hny__title {
+	font-family: "Nexa Script", serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+@media (max-width: 500px) {
+	.hny {
+		background: url(../images/hny/bg-mob1.jpg) no-repeat center top;
+		height: 1607px;
+	}
+
+	.hny__video {
+		height: 242px;
+	}
+
+	.content_video {
+		margin-top: 258px;
+		margin-bottom: 210px;
+	}
+}
+
+@media (max-width: 350px) {
+	.hny {
+		background: url(../images/hny/bg-mob1.jpg) no-repeat center top;
+		height: 1607px;
+	}
+
+	.hny__video {
+		height: 242px;
+	}
+
+	.content_video {
+		margin-top: 258px;
+		margin-bottom: 210px;
+	}
+
+	.hny__text p {
+		font-size: 22px;
+	}
+
+	.hny__title {
+		font-size: 40px;
+	}
+}
